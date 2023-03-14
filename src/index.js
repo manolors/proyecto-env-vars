@@ -1,1 +1,3 @@
-console.log("mi entorno es", process.env.NODE_ENV);
+const myToken = process.env.MY_TOKEN;
+console.log("mi token:", myToken);
+// fetch("url?token=" + myToken);
